@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universities in Busan</title>
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--flag icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+
+    <!--Custom Css-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <body>
+        <heaader>
+            <nav class="navbar">
+                <div class="searchbar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="University Name"/>
+                </div>
+                <button class="btn" id="search-btn">Search</button>
+            </nav>
+        </heaader>
+
+        <main>
+            <div class="cover-image">
+                <img src="assets/busanImage.jpg" alt="Photo of Busan" />
+                <div class="cover-text">
+                    <h1>Universities in Busan</h1>
+                    <h3>Explore top educational institutions in Korea’s coastal city.</h3>
+                </div>
+            </div>
+
+            <div class="filter-nav">
+                <select class="filter-list" id="filter">
+                    <option class="list-items" value="all" selected>All</option>
+                    <option class="list-items" value="national">National</option>
+                    <option class="list-items" value="private">Private</option>
+                    <option class="list-items" value="international">International</option>
+                </select>
+                <!-- <i class="fas fa-filter"></i> -->
+            </div>
+
+            <div class="universities">
+                
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="contact">
+                    <p>Contact Us</p>
+                    <a href="mailto:cttz2310@pusan.ac.kr">Email</a>
+                    <!-- <ul class="icon-list">
+                        <li class="icon-list-items"><i class="fab fa-facebook"></i></li>
+                        <li class="icon-list-items"><i class="fab fa-instagram"></i></li>
+                        <li class="icon-list-items"><i class="fab fa-twitter"></i></li>
+                    </ul> -->
+                </div>
+                <p>&copy; Copyright <span id="autoyear"></span> My Design</p>
+            </div>
+        </footer>
+
+        <!-- template for university-card -->
+        <template id="university-card">
+            <div class="university-card">
+                <div class="university-card-text">
+                    <h3>University Name</h3>
+                    <p class="type">National</p>
+                    <small>Location - <span class="location">Geumjeong-gu</span></small>
+                    <p class="description"></p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="university-card-photo">
+                    <img src="assets/pnulogo.png" alt="university photo">
+                </div>
+            </div>
+        </template>
+
+
+        <!--JS file-->
+        <script src="app.js" type="module"></script>
+    </body>
+</html>
