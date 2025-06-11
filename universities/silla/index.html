@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="page-id" content="silla">
+    <title>Document</title>
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="../detailpage.css">
+</head>
+<body>
+    <heaader>
+        <div class="hero">
+            <h1>Universities in Busan</h1>
+        </div>
+    </heaader>
+
+    <main>
+        <section class="tab">
+            <ul class="page-breadcrumb">
+                <li class="home"><a href="../../index.html"><i class="fas fa-home"></i></a></li>
+                <li class="current">University Info</li>
+            </ul>
+        </section>
+
+        <section class="university">
+            <div class="university-title">
+                <img src="../../assets/pnulogo.png" alt="pnu logo" />
+                <p id="name"></p>
+            </div>
+            <div class="university-info">
+                <p class="description" id="description"></p><hr/>
+                <p class="homepage">Homepage : <a href="#" id="homepage"><i class="fas fa-external-link-alt"></i></a></p><hr/>
+                
+                <h3>Ranking</h3>
+                <div class="kr-ranking">
+                    <img src="../../assets/korean-flag.jpg" width="30px"/><p id="kr-ranking"></p>
+                </div>
+                <div class="world-ranking">
+                    <img src="../../assets/globe.jpg" width="30px"><p id="world-ranking"></p>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="location-map">
+            <p>Location - <span id="location"></span></p>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="list">
+            <li class="home"><a href="../../index.html">Home</a></li>
+            <li class="contact"><a href="mailto:cttz2310@pusan.ac.kr">Contact</a></li>
+        </ul>
+        <small>&copy; 2025 Universities in Busan</small>
+    </footer>
+
+    
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!--Custom JS file-->
+    <script src="../detailpage.js" type="module"></script>
+</html>
