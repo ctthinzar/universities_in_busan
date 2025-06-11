@@ -6,8 +6,10 @@
         "photo": "assets/pnulogo.png",
         "location": "Geumjeong-gu",
         "description": "One of Korea’s top research universities with strong engineering programs.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "9",
+        "wldRanking": "524",
+        "lat": "35.23402",
+        "lng": "129.07970"
     },
     {
         "id": "pknu",
@@ -16,8 +18,10 @@
         "photo": "assets/pknulogo.jpg",
         "location": "Nam-gu",
         "description": "A prominent national university in known for its specialization in fisheries sciences, marine studies, and engineering.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "24",
+        "wldRanking": "1201",
+        "lat": "35.13347",
+        "lng": "129.10538"
     },
     {
         "id": "donga",
@@ -26,8 +30,10 @@
         "photo": "assets/dong_a_logo.jpg",
         "location": "Seo-gu",
         "description": "A leading private university known for law, medicine, and arts.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "34",
+        "wldRanking": "2111",
+        "lat": "35.104864",
+        "lng": "129.019072"
     },
     {
         "id": "kmou",
@@ -36,8 +42,10 @@
         "photo": "assets/kmoulogo.png",
         "location": "Yeongdo-gu",
         "description": "Specialized university for maritime studies and marine engineering.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "72",
+        "wldRanking": "2135",
+        "lat": "35.076526",
+        "lng": "129.088964"
     },
     {
         "id": "dongseo",
@@ -46,8 +54,10 @@
         "photo": "assets/dsulogo.jpg",
         "location": "Sasang-gu",
         "description": "A private institution renowned for its strengths in digital content, film, design, and IT.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "65",
+        "wldRanking": "",
+        "lat": "35.146113",
+        "lng": "129.007021"
     },
     {
         "id": "silla",
@@ -56,8 +66,10 @@
         "photo": "assets/sillalogo.jpg",
         "location": "Sasang-gu",
         "description": "A private institution dedicated to cultivating creative leaders committed to truth, innovation, and the mutual prosperity of humanity.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "151",
+        "wldRanking": "",
+        "lat": "35.168025",
+        "lng": "128.997047"
     },
     {
         "id": "kyungsung",
@@ -66,8 +78,10 @@
         "photo": "assets/kyungsunglogo.jpg",
         "location": "Namgu Daeyeon-dong",
         "description": "A university specializing in Visual image & CT(Cultural Technology) and offering a practical education.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "62",
+        "wldRanking": "",
+        "lat": "35.139995",
+        "lng": "129.098497"
     },
     {
         "id": "dongeui",
@@ -76,8 +90,10 @@
         "photo": "assets/deulogo.png",
         "location": "Busanjin-gu",
         "description": "A leading private university known for its strong programs in fields like Korean medicine and engineering.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "59",
+        "wldRanking": "",
+        "lat": "35.141674",
+        "lng": "129.033633"
     },
     {
         "id": "kosin",
@@ -86,8 +102,10 @@
         "photo": "assets/kosinlogo.jpg",
         "location": "Yeongdo-gu",
         "description": "A private Christian university particularly recognized for its programs in health sciences like medicine and nursing.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "97",
+        "wldRanking": "",
+        "lat": "35.079762",
+        "lng": "129.063060"
     },
     {
         "id": "bufs",
@@ -96,8 +114,10 @@
         "photo": "assets/bufslogo.jpg",
         "location": "Geumjeong-gu",
         "description": "A leading private university specializing in foreign languages and international studies.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "111",
+        "wldRanking": "",
+        "lat": "35.267502",
+        "lng": "129.078676"
     },
     {
         "id": "tmu",
@@ -106,8 +126,10 @@
         "photo": "assets/tmulogo.png",
         "location": "Nam-gu",
         "description": "A private university particularly known for its strong programs in engineering, IT, and design, with a focus on industry-academia cooperation.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "157",
+        "wldRanking": "",
+        "lat": "35.120984",
+        "lng": "129.101146"
     },
     {
         "id": "catholic",
@@ -116,8 +138,10 @@
         "photo": "assets/catholiclogo.jpg",
         "location": "Geumjeong-gu",
         "description": "A private university rooted in Catholic values and offering programs primarily in nursing, health sciences, and social welfare.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "139",
+        "wldRanking": "",
+        "lat": "35.245024",
+        "lng": "129.097814"
     },
     {
         "id": "bnue",
@@ -126,8 +150,10 @@
         "photo": "assets/bnuelogo.jpg",
         "location": "Yeonje-gu",
         "description": "A public university primarily focused on training future elementary school teachers.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "133",
+        "wldRanking": "",
+        "lat": "35.195619",
+        "lng": "129.075117"
     },
     {
         "id": "ysu",
@@ -136,7 +162,9 @@
         "photo": "assets/ysulogo.png",
         "location": "Haeundae-gu",
         "description": "A private institution offering practical programs in fields like international studies, law, business, and information engineering.",
-        "krRanking": "",
-        "wldRanking": ""
+        "krRanking": "112",
+        "wldRanking": "",
+        "lat": "35.429476",
+        "lng": "129.147204"
     }
 ]
