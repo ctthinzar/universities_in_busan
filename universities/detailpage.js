@@ -17,8 +17,8 @@ universities.forEach(university => {
         name.textContent = university.name;
         description.textContent = university.description;
         location.textContent = university.location;
-        kRanking.textContent = `#${university.krRanking}`;
-        wldRanking.textContent = `#${university.wldRanking}`;
+        kRanking.textContent = `&#35${university.krRanking}`;
+        wldRanking.textContent = `&#35${university.wldRanking}`;
         img.src = `../../${university.photo}`
 
 
