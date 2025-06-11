@@ -33,6 +33,11 @@ h3 {
     font-size: 1.2em;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .btn {
     text-decoration: none;
     padding: 5px;
@@ -147,41 +152,6 @@ h3 {
     padding: 0.3em 0.5em;
 }
 
-/* .list-items:hover {
-    background-color: #f0f0f0;
-}
-
-.list-items.active {
-    display: block;
-}
-
-.list-items.selected {
-    display: block;
-    background-color: #f9f9f9;
-    font-weight: bold;
-} */
-
-
-/* .filter-nav {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    margin: 20px 0;
-}
-
-.filter-nav .list{
-    grid-column: 2/12;
-    background-color: grey;
-    display: flex;
-    justify-content: space-between;
-}
-
-.filter-nav .list .list-items {
-    list-style-type: none;
-    border: 1px solid var(--button);
-    padding: 5px;
-    border-radius: 50px;
-} */
-
 .universities {
     max-width: 80%;
     margin: auto auto;
@@ -249,18 +219,6 @@ footer .container {
 .contact {
     margin-bottom: .5em;
 }
-
-/* .social-media .icon-list {
-    list-style-type: none;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-media .icon-list .icon-list-items {
-    margin: 0 .5em;
-} */
 
 
 /* large tablets & laptop styles */
