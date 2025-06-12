@@ -24,14 +24,11 @@ universities.forEach(university => {
 
 
 //search university
-const search = document.getElementById("search-btn");
-search.addEventListener('click', searchUni)
+const search = document.getElementById("search-input");
+search.addEventListener('keyup', searchUni)
 
-
-
-
-function searchUni(){
-     const inputValue = document.getElementById("search-input").value.toLowerCase();
+function searchUni(e){
+     const inputValue = e.target.value.toLowerCase();
      const uniCards = document.querySelectorAll(".university-card");
      console.log(inputValue);
 
@@ -42,7 +39,6 @@ function searchUni(){
         }else {
             uniCard.style.display = "none";
         }
-        
      })
 }
 
