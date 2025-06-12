@@ -41,7 +41,7 @@ a {
 .btn {
     text-decoration: none;
     padding: 5px;
-    margin: .4em;
+    margin: .3em;
     background-color: var(--button);
     border-style: none;
     border-radius: 5px;
@@ -67,14 +67,12 @@ a {
     z-index: 10;
 }
 
+
 .searchbar {
     width: 60%;
     height: auto;
     margin: .5em 0;
     position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .searchbar i {
@@ -159,7 +157,7 @@ a {
 
 .university-card {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    /* grid-template-: 1fr 2fr; */
     background-color: #ffffff;
     border-radius: .8em;
     overflow: hidden;
@@ -167,7 +165,7 @@ a {
 }
 
 .university-card-photo {
-    /* order: 1; */
+    height: 100px;
     grid-row: 1;
     overflow: hidden;
     margin: .5em;
@@ -183,6 +181,7 @@ a {
 .university-card-text {
     padding: 0;
     margin: .5em;
+    text-align: center;
 }
 
 .university-card-text small {
@@ -217,6 +216,8 @@ footer .container {
 }
 
 .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: .5em;
 }
 
@@ -236,9 +237,10 @@ footer .container {
         grid-column: 3/10;
     }
 
-    .university-card {
+    .universities {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
     }
 
     .university-card-text, .university-card-photo {
@@ -263,9 +265,10 @@ footer .container {
         grid-column: 5/9;
     }
 
-    .university-card {
+    .universities {
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
     }
 
     .university-card-text, .university-card-photo {
