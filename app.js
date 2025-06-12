@@ -30,16 +30,23 @@ search.addEventListener('keyup', searchUni)
 function searchUni(e){
      const inputValue = e.target.value.toLowerCase();
      const uniCards = document.querySelectorAll(".university-card");
-     console.log(inputValue);
+     const noResult = document.querySelector(".no-result");
+     let visibleCount = 0;
 
      uniCards.forEach(uniCard => {
         const uniName = uniCard.querySelector("h3").textContent.toLowerCase();
         if(uniName.includes(inputValue)){
             uniCard.style.display = "";
+            visibleCount++
         }else {
             uniCard.style.display = "none";
         }
      })
+    if(visibleCount==0){
+        noResult.style.display = "";
+     }else {
+        noResult.style.display = "none";
+    }
 }
 
 
@@ -54,19 +61,29 @@ filter.addEventListener("change", function () {
 
   function filterItems(type) {
     const allUni = document.querySelectorAll(".university-card");
+    const noResult = document.querySelector(".no-result");
+    let visibleCount = 0;
 
     if(type == "all") {
         allUni.forEach(e => {
             e.style.display = "";
+            visibleCount++
         })
     }else {
         allUni.forEach(e => {
             if(e.querySelector(".type").textContent.toLowerCase() == type){
                 e.style.display = "";
+                visibleCount++
             }else{
                 e.style.display = "none"
             }
         })
+    }
+
+    if(visibleCount==0){
+        noResult.style.display = "";
+     }else {
+        noResult.style.display = "none";
     }
   }
 
