@@ -135,6 +135,10 @@ footer .list .contact {
         font-size: 18px;
     }
 
+    main {
+        margin: auto 1.5em;
+    }
+
     #map {
         width: 80%;
 }
@@ -145,6 +149,10 @@ footer .list .contact {
 
     body {
         font-size: 20px;
+    }
+
+    main {
+        margin: auto 2em;
     }
 
     #map {
