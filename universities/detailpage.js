@@ -12,10 +12,12 @@ universities.forEach(university => {
     const kRanking = document.getElementById("kr-ranking")
     const wldRanking = document.getElementById("world-ranking")
     const location = document.getElementById("location")
+    const homepage = document.querySelector(".homepage")
     
     if(university.id == id){
         name.textContent = university.name;
         description.textContent = university.description;
+        homepage.href = university.homepage;
         location.textContent = university.location;
         kRanking.textContent = `# ${university.krRanking}`;
         wldRanking.textContent = `# ${university.wldRanking}`;
